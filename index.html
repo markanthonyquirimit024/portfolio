@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mark Anthony Quirimit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <!-- header -->
+  <section id="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Mark Anthony Quirimit</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#description">Description</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- end header -->
+
+  <!-- About -->
+  <section id="about">
+    <div class="about-container">
+      <br>
+      <h3 class="mt-5 px-5 fs-1">MAQ</h3>
+      <p class="mt-5 px-5 fs-3 text-center">About Me</p>
+      <hr>
+      <p class="text-center px-5 fs-5 mt-5">Hello! I am <b>Mark Anthony Quirimit</b> from San Fabian, Pangasinan, and currently a sophomore studying at Phinma University of Pangasinan. I am taking a Bachelor of Science in Information Technology. Currently, we are working on developing our final projects, assisting road drivers with their vehicle issues. In the past semester, we finished some minor projects that helped us develop our skills.</p>
+    </div>
+  </section>
+  <!-- End About -->
+
+
+  <!-- Projects -->
+<section id="projects">
+  <div class="projects-container text-center">
+    <h3 style="margin-top: 20rem; padding-top: 5rem;">Projects</h3>
+    <hr>
+    <p class="text-center fs-5 px-5">These are the projects that I already finished in working.</p>
+    <!-- Card View -->
+    <div class="card-container">
+      <div class="card" style="width: 18rem; display: inline-block; margin: 10px;">
+        <img src="BMI-CALCULATOR.jpg" class="card-img-top" alt="BMI-CALCULATOR">
+        <div class="card-body">
+          <h5 class="card-title">BMI Calculator</h5>
+          <p class="card-text">Calculate your body mass index.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; display: inline-block; margin: 10px;">
+        <img src="CLICK-TO-FOCUS.png" class="card-img-top" alt="CLICK TO FOCUS">
+        <div class="card-body">
+          <h5 class="card-title">Click to Focus</h5>
+          <p class="card-text">Photography Website.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; display: inline-block; margin: 10px;">
+        <img src="TEXT-COLOR-GUESSING-GAME.jpg" class="card-img-top" alt="TEXT COLOR GUESSING GAME">
+        <div class="card-body">
+          <h5 class="card-title">Text Color Guessing Game</h5>
+          <p class="card-text">Guess the Color of the Text.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem; display: inline-block; margin: 10px;">
+        <img src="Untitled.png" class="card-img-top" alt="At Your Service">
+        <div class="card-body">
+          <h5 class="card-title">At your Service</h5>
+          <p class="card-text">A Web Application that helps the road drivers.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- End Projects -->
+
+  <!-- Description -->
+  <section id="description">
+    <div class="description-container">
+      <h3 style="margin-top: 5rem; padding-top: 5rem; text-align: center;">Descriptions</h3>
+      <hr>
+      <p class="text-center px-5 fs-5 mt-5">The First Project that We already accomplished is when BMI CALCULATOR which helps the user to create</p>
+    </div>
+  </section>
+  <!-- End Description -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.card').hover(
+      function() {
+        $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+      }, function() {
+        $(this).removeClass('shadow-lg');
+      }
+    );
+  });
+</script>
+</body>
+</html>
